@@ -58,5 +58,5 @@ func (m *Matrix) PrintAsJSON() {
 		fmt.Println("Error marshaling matrix to JSON:", err)
 		return
 	}
-	fmt.Println(string(jsonBytes))
+	fmt.Println("\n", string(jsonBytes))
 }

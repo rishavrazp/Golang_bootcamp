@@ -6,4 +6,6 @@ func main() {
 
 	ExpressionTreeMain()
 
+	EmployeeMain()
+
 }
